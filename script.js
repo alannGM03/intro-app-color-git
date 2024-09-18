@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const colorBox = document.getElementById('colorBox');
     const hexCode = document.getElementById('hexCode');
     const colorPicker = document.getElementById('colorPicker');
+    
 
     function updateColor() {
         const red = parseInt(redRange.value);
